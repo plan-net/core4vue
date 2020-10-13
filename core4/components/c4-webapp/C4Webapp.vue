@@ -44,6 +44,9 @@
         :fluid="fluid"
         class="pa-0"
       >
+        <!-- Slot for component that should be rendered on each page like: menu -->
+        <slot name="singleton"></slot>
+
         <router-view />
         <c4-snackbar></c4-snackbar>
         <error-dialog></error-dialog>
