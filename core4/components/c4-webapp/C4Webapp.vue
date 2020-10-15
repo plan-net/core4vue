@@ -45,7 +45,7 @@
         class="pa-0"
       >
         <!-- Slot for component that should be rendered on each page like: menu -->
-        <slot name="singleton"></slot>
+        <slot name="top-global-bar-slot"></slot>
 
         <router-view />
         <c4-snackbar></c4-snackbar>
