@@ -227,7 +227,8 @@ export default {
         }
       }
     } else {
-      console.info(`Core4ui error handling system: new error type - ${err}`)
+      //console.info(`Core4ui error handling system: new error type - ${err}`)
+      console.error(err)
     }
   }
 };
