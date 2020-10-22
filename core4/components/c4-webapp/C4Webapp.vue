@@ -11,7 +11,7 @@
         dense
         elevate-on-scroll
         :extended="false"
-        class="c4-toolbar"
+        class="c4-toolbar d-print-none"
       >
         <v-btn
           class=""
